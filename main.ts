@@ -14,6 +14,9 @@ enum vocabularyList {
 
 namespace mijia_asr{
 
+    let asrEventId = 3500
+    let lastvoc = vocabularyList.VOICE_OPEN
+
     /**
      * Connects to the Serial voice Recognition.
      */
@@ -57,11 +60,10 @@ namespace mijia_asr{
         return false
     }
 
-     let asrEventId = 3500
-    let lastvoc = vocabularyList.VOICE_OPEN
+     
     //% block="ASR sensor IIC port hear %vocabulary"
     //% vocabulary.fieldEditor="gridpicker" vocabulary.fieldOptions.columns=3
-    //% blockId = ASR
+    //% wight
     export function ASR(vocabulary: vocabularyList, handler: () => void) {
         control.onEvent(asrEventId, vocabulary, handler)
         control.inBackground(function () {
