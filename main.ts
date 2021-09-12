@@ -63,7 +63,7 @@ namespace mijia_asr{
      
     //% block="ASR sensor IIC port hear %vocabulary"
     //% vocabulary.fieldEditor="gridpicker" vocabulary.fieldOptions.columns=3
-    //% wight
+    //% weight=60 
     export function ASR(vocabulary: vocabularyList, handler: () => void) {
         control.onEvent(asrEventId, vocabulary, handler)
         control.inBackground(function () {
