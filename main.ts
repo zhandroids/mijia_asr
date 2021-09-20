@@ -24,7 +24,7 @@ namespace mijia_asr{
     //% block="connect ASR device with ASR RX attached to %asrRX | and ASR TX to %asrTX"
     //% asrRX.fieldEditor="gridpicker" asrRX.fieldOptions.columns=3
     //% asrTX.fieldEditor="gridpicker" asrTX.fieldOptions.columns=3
-    //% weight=50 
+    //% weight=100 
     export function connectSerialASR(asrRX: DigitalPin, asrTX: DigitalPin): void {
         serial.redirect(asrRX as number, asrTX as number, BaudRate.BaudRate9600);
     }
