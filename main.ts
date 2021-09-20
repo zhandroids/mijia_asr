@@ -61,7 +61,7 @@ namespace mijia_asr{
     }
 
     //% block="asrNum %index"
-    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=4
+    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=3
     //% blockId = asrNum
     //% weight=70 
     export function asrNum(index: vocabularyList): number {
