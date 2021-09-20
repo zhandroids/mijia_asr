@@ -60,6 +60,15 @@ namespace mijia_asr{
         return false
     }
 
+    //% block="asrNum %index"
+    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=4
+    //% blockId = asrNum
+    //% weight=70 
+    export function asrNum(index: vocabularyList): number {
+        const readData = serial.readBuffer(1).toArray(NumberFormat.UInt8BE);
+        return readData[0]
+    }
+
      
     //% block="ASR sensor IIC port hear %vocabulary"
     //% vocabulary.fieldEditor="gridpicker" vocabulary.fieldOptions.columns=3
