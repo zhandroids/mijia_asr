@@ -60,10 +60,10 @@ namespace mijia_asr{
         return false
     }
 
-    //% block="asrNum"
-    //% blockId = asrNum
+    //% block="asrReturnNum"
+    //% blockId = asrReturnNum
     //% weight=20 
-    export function asrNum(): number {
+    export function asrReturnNum(): number {
         const readData = serial.readBuffer(1).toArray(NumberFormat.UInt8BE);
         return readData[0]
     }
