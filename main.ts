@@ -60,11 +60,10 @@ namespace mijia_asr{
         return false
     }
 
-    //% block="asrNum %index"
-    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=3
+    //% block="asrNum"
     //% blockId = asrNum
     //% weight=70 
-    export function asrNum(index: vocabularyList): number {
+    export function asrNum(): number {
         const readData = serial.readBuffer(1).toArray(NumberFormat.UInt8BE);
         return readData[0]
     }
