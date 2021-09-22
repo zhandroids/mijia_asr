@@ -62,7 +62,7 @@ namespace mijia_asr{
 
     //% block="asrNum"
     //% blockId = asrNum
-    //% weight=70 
+    //% weight=20 
     export function asrNum(): number {
         const readData = serial.readBuffer(1).toArray(NumberFormat.UInt8BE);
         return readData[0]
