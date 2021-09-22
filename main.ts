@@ -59,15 +59,6 @@ namespace mijia_asr{
         }
         return false
     }
-
-    //% block="asrReturnNum"
-    //% blockId = asrReturnNum
-    //% weight=20 
-    export function asrReturnNum(): number {
-        const readData = serial.readBuffer(1).toArray(NumberFormat.UInt8BE);
-        return readData[0]
-    }
-
      
     //% block="ASR sensor IIC port hear %vocabulary"
     //% vocabulary.fieldEditor="gridpicker" vocabulary.fieldOptions.columns=3
@@ -111,6 +102,13 @@ namespace mijia_asr{
                 basic.pause(100);
             }
         })
+
+    }
+
+    //% block = "return a value for asr"
+    //% weight = 20
+    export function asrReturnNum():number{
+        return serial.readBuffer(1).toArray(NumberFormat.UInt8BE).get(0)
 
     }
 }
