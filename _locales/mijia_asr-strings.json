@@ -1,0 +1,16 @@
+{
+  "mijia_asr.ASR|block": "ASR sensor IIC port hear %vocabulary",
+  "mijia_asr.asrReturnNum|block": "true",
+  "mijia_asr.asr_logic|block": "asr_logic %index",
+  "mijia_asr.connectSerialASR|block": "connect ASR device with ASR RX attached to %asrRX | and ASR TX to %asrTX",
+  "mijia_asr|block": "Xiaoyu ASR",
+  "vocabularyList.VOICE_BRIGHTER|block": "brighter",
+  "vocabularyList.VOICE_CLOSE_LIGHT|block": "close light",
+  "vocabularyList.VOICE_CLOSE|block": "close",
+  "vocabularyList.VOICE_DARK|block": "dark",
+  "vocabularyList.VOICE_OPEN_LIGHT|block": "open light",
+  "vocabularyList.VOICE_OPEN|block": "open",
+  "vocabularyList.VOICE_SWITCH_COLOR|block": "switch",
+  "vocabularyList.VOICE_SWITCH_MODE|block": "swith mode",
+  "{id:category}Mijia_asr": "Mijia_asr"
+}

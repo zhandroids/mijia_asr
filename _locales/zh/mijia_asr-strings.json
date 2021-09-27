@@ -1,0 +1,16 @@
+{
+  "mijia_asr.ASR|block": "当小鱼同学听到 %vocabulary",
+  "mijia_asr.asrReturnNum|block": "true",
+  "mijia_asr.asr_logic|block": "小鱼同学听到 %index",
+  "mijia_asr.connectSerialASR|block": "将小鱼同学 RX 连接到 %asrRX | TX连接到 %asrTX",
+  "mijia_asr|block": "mijia_asr",
+  "vocabularyList.VOICE_BRIGHTER|block": "亮一点",
+  "vocabularyList.VOICE_CLOSE_LIGHT|block": "关灯",
+  "vocabularyList.VOICE_CLOSE|block": "关闭",
+  "vocabularyList.VOICE_DARK|block": "暗一点",
+  "vocabularyList.VOICE_OPEN_LIGHT|block": "开灯",
+  "vocabularyList.VOICE_OPEN|block": "打开",
+  "vocabularyList.VOICE_SWITCH_COLOR|block": "换色",
+  "vocabularyList.VOICE_SWITCH_MODE|block": "切换模式",
+  "{id:category}Mijia_asr": "小鱼同学"
+}

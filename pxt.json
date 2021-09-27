@@ -4,19 +4,22 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "radio": "*"
     },
     "files": [
         "main.ts",
         "README.md",
-        "test.ts"
+        "test.ts",
+        "_locals/zh/mijia_asr-jsdoc-strings.json",
+        "_locals/zh/mijia_asr-strings.json",
+        "_locals/mijia_asr-jsdoc-strings.json",
+        "_locals/mijia_asr-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.11",
+        "target": "2.0.11",
         "targetId": "microbit"
     },
     "supportedTargets": [
