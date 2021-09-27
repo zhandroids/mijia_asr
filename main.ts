@@ -19,7 +19,7 @@ enum vocabularyList {
 }
 
 
-//% color="#02a1a3" weight=100 icon="\f2a2" block="Xiaoyu ASR"
+//% color="#02a1a3" weight=100 icon="\uf2a2" block="Xiaoyu ASR"
 namespace mijia_asr{
 
     let asrEventId = 3500

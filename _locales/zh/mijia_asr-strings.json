@@ -1,6 +1,6 @@
 {
   "mijia_asr.ASR|block": "当小鱼同学听到 %vocabulary",
-  "mijia_asr.asrReturnNum|block": "true",
+  "mijia_asr.asrReturnNum|block": "语音识别返回值",
   "mijia_asr.asr_logic|block": "小鱼同学听到 %index",
   "mijia_asr.connectSerialASR|block": "将小鱼同学 RX 连接到 %asrRX | TX连接到 %asrTX",
   "mijia_asr|block": "mijia_asr",
