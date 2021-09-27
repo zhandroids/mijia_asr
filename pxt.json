@@ -10,11 +10,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "test.ts",
-        "_locals/zh/mijia_asr-jsdoc-strings.json",
-        "_locals/zh/mijia_asr-strings.json",
-        "_locals/mijia_asr-jsdoc-strings.json",
-        "_locals/mijia_asr-strings.json"
+        "test.ts"
     ],
     "testFiles": [
         "test.ts"
