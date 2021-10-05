@@ -30,8 +30,6 @@ namespace mijia_asr{
      */
     //% blockId="makerbit_asr_connect" 
     //% block="connect ASR device with ASR RX attached to %asrRX | and ASR TX to %asrTX"
-    //% asrRX.fieldEditor="gridpicker" asrRX.fieldOptions.columns=3
-    //% asrTX.fieldEditor="gridpicker" asrTX.fieldOptions.columns=3
     //% weight=100 
     export function connectSerialASR(asrRX: DigitalPin, asrTX: DigitalPin): void {
         serial.redirect(asrRX as number, asrTX as number, BaudRate.BaudRate9600);
@@ -39,7 +37,6 @@ namespace mijia_asr{
 
     
     //% block="asr_logic %index"
-    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=4
     //% blockId = asr_logic
     //% weight=80 
     export function asr_logic(index: vocabularyList): boolean {
@@ -66,7 +63,6 @@ namespace mijia_asr{
      
 
     //% block="ASR sensor IIC port hear %vocabulary"
-    //% vocabulary.fieldEditor="gridpicker" vocabulary.fieldOptions.columns=3
     //% weight=60 
     export function ASR(vocabulary: vocabularyList, handler: () => void) {
         control.onEvent(asrEventId, vocabulary, handler)
